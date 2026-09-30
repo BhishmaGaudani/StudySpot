@@ -1,0 +1,18 @@
+# Web framework + ASGI server
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+
+# Database: SQLModel (built on SQLAlchemy), Alembic migrations, Postgres driver
+sqlmodel==0.0.47
+alembic==1.20.0
+psycopg[binary]==3.3.6
+
+# Auth + config
+pyjwt==2.15.1
+bcrypt==5.0.0
+pydantic-settings==2.15.0
+email-validator==2.3.0
+
+# Tests
+pytest==9.1.1
+httpx2==2.13.1
